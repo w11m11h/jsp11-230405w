@@ -15,7 +15,7 @@
 		String memail = request.getParameter("email");
 	%>
 	<%
-		String driverName = "com.mysql.jdbc.Driver";
+		String driverName = "com.mysql.cj.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/jsp_testdb";
 		String userName = "root";
 		String password = "1234";
